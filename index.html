@@ -1,0 +1,409 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Blue Moon Boat Club | Boat Ride in Oloppara, Kerala</title>
+
+  <meta name="description"
+        content="Enjoy a memorable 45-minute boat ride at Blue Moon Boat Club, Oloppara, Kerala. Minimum charge ₹1,500. Boat ride packages available. Contact us to plan your trip.">
+
+  <meta name="keywords"
+        content="Blue Moon Boat Club, Oloppara boat service, boat ride Oloppara, boat club Kerala , boat ride kozhikode, river boating Kerala, boat ride packages, 45 minute boat ride">
+
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#063b46">
+
+  <meta property="og:title" content="Blue Moon Boat Club - Oloppara">
+  <meta property="og:description"
+        content="Explore the beauty of Oloppara with Blue Moon Boat Club. 45-minute boat rides starting at ₹1,500. Packages available.">
+  <meta property="og:type" content="website">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f3faf8;
+      color: #183438;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #063b46;
+      color: white;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .logo {
+      font-size: 23px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #72e0d0;
+    }
+
+    .hero {
+      min-height: 560px;
+      padding: 90px 7%;
+      display: flex;
+      align-items: center;
+      background:
+        linear-gradient(90deg,
+          rgba(3, 35, 43, 0.88),
+          rgba(3, 35, 43, 0.38)),
+        url("https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1800&q=85")
+        center/cover no-repeat;
+      color: white;
+    }
+
+    .hero-content {
+      max-width: 650px;
+    }
+
+    .eyebrow {
+      color: #8af0dc;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(38px, 6vw, 68px);
+      line-height: 1.12;
+      margin: 18px 0;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 550px;
+      margin-bottom: 28px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #16a994;
+      color: white;
+      text-decoration: none;
+      padding: 13px 24px;
+      border-radius: 7px;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+
+    .button:hover {
+      background: #087b6c;
+    }
+
+    .button-outline {
+      background: transparent;
+      border: 1px solid white;
+      margin-left: 10px;
+    }
+
+    .button-outline:hover {
+      background: white;
+      color: #063b46;
+    }
+
+    section {
+      padding: 70px 7%;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 34px;
+      color: #063b46;
+      margin-bottom: 12px;
+    }
+
+    .section-intro {
+      max-width: 650px;
+      text-align: center;
+      margin: 0 auto 35px;
+      color: #52696b;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .feature-card {
+      background: white;
+      border-radius: 12px;
+      padding: 30px 22px;
+      text-align: center;
+      box-shadow: 0 5px 22px rgba(0, 45, 50, 0.07);
+    }
+
+    .feature-card .icon {
+      font-size: 38px;
+      margin-bottom: 12px;
+    }
+
+    .feature-card h3 {
+      color: #075563;
+      margin-bottom: 8px;
+    }
+
+    .price {
+      background: #e0f3ee;
+      text-align: center;
+    }
+
+    .price-card {
+      max-width: 530px;
+      margin: 30px auto 0;
+      padding: 35px 24px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 5px 22px rgba(0, 45, 50, 0.08);
+    }
+
+    .price-amount {
+      font-size: 48px;
+      color: #078675;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .price-card ul {
+      list-style: none;
+      margin: 20px 0;
+    }
+
+    .price-card li {
+      margin: 10px 0;
+    }
+
+    .location {
+      text-align: center;
+    }
+
+    .location p {
+      margin: 12px 0 24px;
+    }
+
+    .hashtags {
+      background: #ffffff;
+      text-align: center;
+    }
+
+    .tag-list {
+      max-width: 850px;
+      margin: 22px auto 0;
+      color: #087b6c;
+      word-spacing: 7px;
+      line-height: 2.2;
+    }
+
+    footer {
+      background: #042d36;
+      color: #d8e9e8;
+      padding: 28px 7%;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        justify-content: center;
+        text-align: center;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+
+      .hero {
+        min-height: 480px;
+        padding: 65px 6%;
+      }
+
+      .features {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        padding: 55px 6%;
+      }
+
+      .button-outline {
+        margin: 12px 0 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">🌊 BLUE MOON BOAT CLUB</div>
+
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#rides">Boat Rides</a>
+      <a href="#packages">Packages</a>
+      <a href="#location">Location</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">Discover Oloppara</span>
+
+        <h1>Make Memories on the Water</h1>
+
+        <p>
+          Experience the beauty of Oloppara with Blue Moon Boat Club.
+          Enjoy a refreshing 45-minute boat ride, spend quality time
+          with your loved ones, and explore our available packages.
+        </p>
+
+        <a class="button" href="#packages">Explore Our Packages</a>
+        <a class="button button-outline" href="#location">Find Us</a>
+      </div>
+    </section>
+
+    <section id="rides">
+      <h2 class="section-title">Enjoy Your Boat Ride</h2>
+
+      <p class="section-intro">
+        Looking for a relaxing boating experience in Oloppara?
+        Blue Moon Boat Club welcomes families, friends, couples,
+        and visitors looking to enjoy time on the water.
+      </p>
+
+      <div class="features">
+        <article class="feature-card">
+          <div class="icon">🚤</div>
+          <h3>45-Minute Ride</h3>
+          <p>Enjoy a memorable boat ride surrounded by natural scenery.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="icon">💰</div>
+          <h3>Affordable Starting Price</h3>
+          <p>Our minimum charge starts at ₹1,500.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="icon">🌴</div>
+          <h3>Special Packages</h3>
+          <p>Packages are available for visitors looking for a
+             boating experience that suits their plans.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="price" id="packages">
+      <h2 class="section-title">Our Boat Ride Pricing</h2>
+
+      <p class="section-intro">
+        Start planning your boating experience at Oloppara.
+      </p>
+
+      <div class="price-card">
+        <h3>Standard Boat Ride</h3>
+
+        <div class="price-amount">₹1,500+</div>
+
+        <p>Minimum charge</p>
+
+        <ul>
+          <li>✓ Approximately 45-minute ride</li>
+          <li>✓ Beautiful riverside scenery</li>
+          <li>✓ Additional packages available</li>
+        </ul>
+
+        <p>
+          Final charges and package details may vary.
+          Please contact the boat club for confirmation.
+        </p>
+      </div>
+    </section>
+
+    <section class="location" id="location">
+      <h2 class="section-title">Visit Blue Moon Boat Club</h2>
+
+      <p>
+        📍 <strong>Location:</strong> Oloppara, Kerala, India
+      </p>
+
+      <p>
+        Come and enjoy a boat ride with Blue Moon Boat Club.
+        Contact us for directions, availability, and package details.
+      </p>
+
+      <a class="button"
+         href="https://www.google.com/maps/search/?api=1&query=Blue+Moon+Boat+Club+Oloppara"
+         target="_blank"
+         rel="noopener noreferrer">
+        Find Us on Google Maps
+      </a>
+    </section>
+
+    <section class="hashtags">
+      <h2 class="section-title">Explore Oloppara with Us</h2>
+
+      <p>
+        Plan your next boat ride and discover the beauty of
+        Oloppara with Blue Moon Boat Club.
+      </p>
+
+      <div class="tag-list">
+        #BlueMoonBoatClub
+        #Oloppara
+        #OlopparaBoatRide
+        #BoatRideKerala
+        #KeralaTourism
+        #BoatRide
+        #RiverBoating
+        #BoatRidePackages
+        #ExploreKerala
+        #KozhikodeBoatRide
+        #VisitKerala
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Blue Moon Boat Club</strong></p>
+    <p>Boat rides and packages at Oloppara, Kerala.</p>
+    <p>© <span id="year">2026</span> Blue Moon Boat Club. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
